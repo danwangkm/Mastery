@@ -32,7 +32,8 @@
             android:id="@+id/textMaxDistance"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignParentBottom="true" />
+            android:layout_alignParentBottom="true"
+            android:textColor="#ff0000"/>
 
         <SeekBar
             android:id="@+id/seekBarMaxDistance"
@@ -41,6 +42,15 @@
             android:layout_alignParentBottom="true"
             android:layout_margin="2dip"
             android:layout_toRightOf="@id/textMaxDistance" />
+
+        <Button
+            android:text="Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/seekBarMaxDistance"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="23dp"
+            android:id="@+id/button" />
     </RelativeLayout>
 
 </FrameLayout>
